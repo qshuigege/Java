@@ -1,0 +1,110 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetDataMethodsResponse xmlns="http://tempuri.org/">
+         <GetDataMethodsResult>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="Table">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="DDH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="GYS" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="DDRQ" type="xs:dateTime" minOccurs="0"/>
+                                 <xs:element name="JKHZ" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="DDHL" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="DDBB" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="SFDZ" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="DZJE" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="JKHZRMB" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="HTJE" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="ZZS" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="GS" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="DLFRMB" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="ZF" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="ZJZYF" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="KHDDH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="FJDH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="WBGHZ" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="KPTT" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="BZ" type="xs:string" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Table1">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="YFRQ" type="xs:dateTime" minOccurs="0"/>
+                                 <xs:element name="YFJE" type="xs:decimal" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Table2">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="FKRQ" type="xs:dateTime" minOccurs="0"/>
+                                 <xs:element name="FKJE" type="xs:decimal" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <NewDataSet xmlns="">
+                  <Table diffgr:id="Table1" msdata:rowOrder="0">
+                     <DDH>FA140105169</DDH>
+                     <GYS>LAMPEK ENterprises Development (HK) Ltd</GYS>
+                     <DDRQ>2014-01-10T00:00:00+08:00</DDRQ>
+                     <JKHZ>1762604.286048000</JKHZ>
+                     <DDHL>6.063100</DDHL>
+                     <DDBB>USD</DDBB>
+                     <SFDZ/>
+                     <DZJE>0</DZJE>
+                     <JKHZRMB>USD 290710.08</JKHZRMB>
+                     <HTJE>2071015.200000</HTJE>
+                     <ZZS>300916.79</ZZS>
+                     <GS>446.10</GS>
+                     <DLFRMB>7047.98</DLFRMB>
+                     <ZF>0</ZF>
+                     <ZJZYF>0</ZJZYF>
+                     <KHDDH/>
+                     <FJDH/>
+                     <WBGHZ>USD 0.00</WBGHZ>
+                     <KPTT>上海蓝伯科电子科技有限公司</KPTT>
+                     <BZ>票140121_2071015.20_[已开票]</BZ>
+                  </Table>
+                  <Table diffgr:id="Table2" msdata:rowOrder="1">
+                     <DDH>AC140102037</DDH>
+                     <GYS/>
+                     <DDRQ>2014-01-10T00:00:00+08:00</DDRQ>
+                     <JKHZ>0.000000000</JKHZ>
+                     <DDHL>1.000000</DDHL>
+                     <DDBB>RMB</DDBB>
+                     <SFDZ/>
+                     <DZJE>0</DZJE>
+                     <JKHZRMB>RMB3499.56</JKHZRMB>
+                     <HTJE>0.000000</HTJE>
+                     <ZZS>0.00</ZZS>
+                     <GS>0.00</GS>
+                     <DLFRMB>0.00</DLFRMB>
+                     <ZF>0</ZF>
+                     <ZJZYF>0</ZJZYF>
+                     <KHDDH/>
+                     <FJDH/>
+                     <WBGHZ>RMB 0</WBGHZ>
+                     <KPTT/>
+                     <BZ>12月保费</BZ>
+                  </Table>
+                  <Table1 diffgr:id="Table11" msdata:rowOrder="0">
+                     <YFRQ>2014-01-10T00:00:00+08:00</YFRQ>
+                     <YFJE>9905.99</YFJE>
+                  </Table1>
+               </NewDataSet>
+            </diffgr:diffgram>
+         </GetDataMethodsResult>
+      </GetDataMethodsResponse>
+   </soap:Body>
+</soap:Envelope>

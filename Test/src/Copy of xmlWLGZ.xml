@@ -1,0 +1,209 @@
+
+This XML file does not appear to have any style information associated
+with it. The document tree is shown below.
+<DataSet xmlns="http://tempuri.org/">
+	<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="NewDataSet">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true"
+			msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ERPWTDH" type="xs:string"
+									minOccurs="0" />
+								<xs:element name="DDSXSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="ZLSHSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="JCBGSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="ZLFCSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="SZCSHSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="SZCCCSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="KHQSSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="DDSL" type="xs:decimal" minOccurs="0" />
+								<xs:element name="ZLSHSL" type="xs:decimal"
+									minOccurs="0" />
+								<xs:element name="CJBGSL" type="xs:decimal"
+									minOccurs="0" />
+								<xs:element name="ZLFCSL" type="xs:decimal"
+									minOccurs="0" />
+								<xs:element name="SZCSHSL" type="xs:decimal"
+									minOccurs="0" />
+								<xs:element name="SZCCCSL" type="xs:decimal"
+									minOccurs="0" />
+								<xs:element name="KHQSSL" type="xs:decimal"
+									minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Table1">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="SHDH" type="xs:string" minOccurs="0" />
+								<xs:element name="ZLSHSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="ZLSHSL" type="xs:decimal"
+									minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Table2">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="SHDH" type="xs:string" minOccurs="0" />
+								<xs:element name="SZCSHSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="SZCSHSL" type="xs:decimal"
+									minOccurs="0" />
+								<xs:element name="SZCCSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="FHFS" type="xs:string" minOccurs="0" />
+								<xs:element name="YDH" type="xs:string" minOccurs="0" />
+								<xs:element name="SHR" type="xs:string" minOccurs="0" />
+								<xs:element name="SHRDH" type="xs:string" minOccurs="0" />
+								<xs:element name="SHRDZ" type="xs:string" minOccurs="0" />
+								<xs:element name="CP" type="xs:string" minOccurs="0" />
+								<xs:element name="SJ" type="xs:string" minOccurs="0" />
+								<xs:element name="SJDH" type="xs:string" minOccurs="0" />
+								<xs:element name="SHFQSSJ" type="xs:dateTime"
+									minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+		xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+		<NewDataSet xmlns="">
+			<Table diffgr:id="Table1" msdata:rowOrder="0">
+				<ERPWTDH>FB130400179</ERPWTDH>
+				<DDSXSJ>2013-04-17T15:34:18.85+08:00</DDSXSJ>
+				<ZLSHSJ>2013-04-17T16:02:40.55+08:00</ZLSHSJ>
+				<JCBGSJ>2013-04-17T17:45:02.04+08:00</JCBGSJ>
+				<ZLFCSJ>2013-04-17T18:04:02.373+08:00</ZLFCSJ>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<DDSL>119104.00</DDSL>
+				<ZLSHSL>119104.00</ZLSHSL>
+				<CJBGSL>119104.00</CJBGSL>
+				<ZLFCSL>119104.00</ZLFCSL>
+				<SZCSHSL>119104.00</SZCSHSL>
+				<SZCCCSL>0.00</SZCCCSL>
+				<KHQSSL>0.00</KHQSSL>
+			</Table>
+			<Table1 diffgr:id="Table11" msdata:rowOrder="0">
+				<SHDH>SH130400594</SHDH>
+				<ZLSHSJ>2013-04-17T16:02:40.55+08:00</ZLSHSJ>
+				<ZLSHSL>119104.00</ZLSHSL>
+			</Table1>
+			<Table1 diffgr:id="Table11" msdata:rowOrder="0">
+				<SHDH>SH130400595</SHDH>
+				<ZLSHSJ>2013-04-17T16:02:40.55+08:00</ZLSHSJ>
+				<ZLSHSL>119104.00</ZLSHSL>
+			</Table1>
+			<Table1 diffgr:id="Table11" msdata:rowOrder="0">
+				<SHDH>SH130400597</SHDH>
+				<ZLSHSJ>2013-04-17T16:02:40.55+08:00</ZLSHSJ>
+				<ZLSHSL>119104.00</ZLSHSL>
+			</Table1>
+			<Table2 diffgr:id="Table21" msdata:rowOrder="0">
+				<SHDH>PS130400263</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>6630.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>FAI PANG</SHR>
+				<SHRDH>00852-39205802</SHRDH>
+				<SHRDZ>香港新界沙田山尾街36-42号嘉里（沙田）货仓7楼</SHRDZ>
+				<CP>KA6090</CP>
+			</Table2>
+			<Table2 diffgr:id="Table22" msdata:rowOrder="1">
+				<SHDH>PS130400264</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>13080.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>田孟芬</SHR>
+				<SHRDH>00852-91981639</SHRDH>
+				<SHRDZ>香港九龙官塘鸿图道44-46号世纪中心7楼710室</SHRDZ>
+				<CP>NT602</CP>
+			</Table2>
+			<Table2 diffgr:id="Table23" msdata:rowOrder="2">
+				<SHDH>PS130400265</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>9740.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>嘉玲</SHR>
+				<SHRDH>00852-21516082</SHRDH>
+				<SHRDZ>香港新界沙田安心街11号华顺广场17楼1-7室</SHRDZ>
+				<CP>NT602</CP>
+			</Table2>
+			<Table2 diffgr:id="Table24" msdata:rowOrder="3">
+				<SHDH>PS130400266</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>62444.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>JASON</SHR>
+				<SHRDH>00852-24609008</SHRDH>
+				<SHRDZ>香港新田米埔港龙货柜场</SHRDZ>
+				<CP>MD7168</CP>
+			</Table2>
+			<Table2 diffgr:id="Table25" msdata:rowOrder="4">
+				<SHDH>PS130400267</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>2510.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>麦光明</SHR>
+				<SHRDH>00852-27288438</SHRDH>
+				<SHRDZ>香港九龙深水埗九江接132号地下</SHRDZ>
+				<CP>KA6090</CP>
+			</Table2>
+			<Table2 diffgr:id="Table26" msdata:rowOrder="5">
+				<SHDH>PS130400268</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>19500.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>陈淑兰</SHR>
+				<SHRDH>00852-24022913/2915</SHRDH>
+				<SHRDZ>香港新界荃湾大涌道8号TCL工业中心12楼</SHRDZ>
+				<CP>NT602</CP>
+			</Table2>
+			<Table2 diffgr:id="Table27" msdata:rowOrder="6">
+				<SHDH>PS130400269</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>100.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>陈若萍</SHR>
+				<SHRDH>00852-23426123</SHRDH>
+				<SHRDZ>香港將軍澳景嶺路8號都會駅5座52樓C室</SHRDZ>
+				<CP>KA6090</CP>
+			</Table2>
+			<Table2 diffgr:id="Table28" msdata:rowOrder="7">
+				<SHDH>PS130400270</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>5000.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>VICKY</SHR>
+				<SHRDH>00852-31615516/5517</SHRDH>
+				<SHRDZ>香港九龙土瓜湾土瓜湾道88号新利华中心一楼101室</SHRDZ>
+				<CP>KA6090</CP>
+			</Table2>
+			<Table2 diffgr:id="Table29" msdata:rowOrder="8">
+				<SHDH>PS130400271</SHDH>
+				<SZCSHSJ>2013-04-17T19:44:11.66+08:00</SZCSHSJ>
+				<SZCSHSL>100.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>Jennifer</SHR>
+				<SHRDH>00852-2421 8483</SHRDH>
+				<SHRDZ>香港新界葵涌和宜合道63號麗晶中心A座9樓913室 (倉庫: 13樓1312室</SHRDZ>
+				<CP>KA6090</CP>
+			</Table2>
+		</NewDataSet>
+	</diffgr:diffgram>
+</DataSet>

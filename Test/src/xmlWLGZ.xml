@@ -1,0 +1,95 @@
+<DataSet xmlns="http://tempuri.org/">
+	<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="NewDataSet">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ERPWTDH" type="xs:string" minOccurs="0"/>
+								<xs:element name="DDSXSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="ZLSHSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="JCBGSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="ZLFCSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="SZCSHSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="SZCCCSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="KHQSSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="DDSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="ZLSHSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="CJBGSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="ZLFCSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="SZCSHSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="SZCCCSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="KHQSSL" type="xs:decimal" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Table1">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="SHDH" type="xs:string" minOccurs="0"/>
+								<xs:element name="ZLSHSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="ZLSHSL" type="xs:decimal" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Table2">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="SHDH" type="xs:string" minOccurs="0"/>
+								<xs:element name="SZCSHSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="SZCSHSL" type="xs:decimal" minOccurs="0"/>
+								<xs:element name="SZCCSJ" type="xs:dateTime" minOccurs="0"/>
+								<xs:element name="FHFS" type="xs:string" minOccurs="0"/>
+								<xs:element name="YDH" type="xs:string" minOccurs="0"/>
+								<xs:element name="SHR" type="xs:string" minOccurs="0"/>
+								<xs:element name="SHRDH" type="xs:string" minOccurs="0"/>
+								<xs:element name="SHRDZ" type="xs:string" minOccurs="0"/>
+								<xs:element name="CP" type="xs:string" minOccurs="0"/>
+								<xs:element name="SJ" type="xs:string" minOccurs="0"/>
+								<xs:element name="SJDH" type="xs:string" minOccurs="0"/>
+								<xs:element name="SHFQSSJ" type="xs:dateTime" minOccurs="0"/>
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+		<NewDataSet xmlns="">
+			<Table diffgr:id="Table1" msdata:rowOrder="0">
+				<ERPWTDH>FA130703547</ERPWTDH>
+				<DDSXSJ>2013-07-24T12:23:59.853+08:00</DDSXSJ>
+				<ZLSHSJ>2013-07-24T12:32:21.217+08:00</ZLSHSJ>
+				<JCBGSJ>2013-07-24T14:12:17.917+08:00</JCBGSJ>
+				<ZLFCSJ>2013-07-24T15:50:20.627+08:00</ZLFCSJ>
+				<SZCSHSJ>2013-07-24T17:15:54.597+08:00</SZCSHSJ>
+				<DDSL>11500.00</DDSL>
+				<ZLSHSL>11500.00</ZLSHSL>
+				<CJBGSL>11500.00</CJBGSL>
+				<ZLFCSL>11500.00</ZLFCSL>
+				<SZCSHSL>11500.00</SZCSHSL>
+				<SZCCCSL>0.00</SZCCCSL>
+				<KHQSSL>0.00</KHQSSL>
+			</Table>
+			<Table1 diffgr:id="Table11" msdata:rowOrder="0">
+				<SHDH>SH130707089</SHDH>
+				<ZLSHSJ>2013-07-24T12:32:21.217+08:00</ZLSHSJ>
+				<ZLSHSL>11500.00</ZLSHSL>
+			</Table1>
+			<Table2 diffgr:id="Table21" msdata:rowOrder="0">
+				<SHDH>PS130707563</SHDH>
+				<SZCSHSJ>2013-07-24T17:15:54.597+08:00</SZCSHSJ>
+				<SZCSHSL>11500.00</SZCSHSL>
+				<FHFS>送货</FHFS>
+				<SHR>林辉文</SHR>
+				<SHRDH>0755-26588539/18718687091</SHRDH>
+				<SHRDZ>广东省深圳市南山区马家龙工业区14幢601室</SHRDZ>
+				<CP>粤B8302T</CP>
+				<SJ>18948185746</SJ>
+				<SJDH>蔡展鸿</SJDH>
+			</Table2>
+		</NewDataSet>
+	</diffgr:diffgram>
+</DataSet>

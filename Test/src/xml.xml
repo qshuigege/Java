@@ -1,0 +1,553 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <GetDataMethodsResponse xmlns="http://tempuri.org/">
+         <GetDataMethodsResult>
+            <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+               <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+                  <xs:complexType>
+                     <xs:choice minOccurs="0" maxOccurs="unbounded">
+                        <xs:element name="Table">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="WTFDDH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="ERPWTDH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="WTFHTH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="GHS" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="BB" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="HKJHFS" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="THXX" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="SZJHFS" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="SPTT" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="FKLX" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="BGFS" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="DDHL" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="DLFHL" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="DLFL" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="ZFFS" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="QPTS" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="YDH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="ZJE" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="BGJE" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="FJ2" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="BZ" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="YFHJE" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="WFHJE" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="YSS" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="WSS" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="YSDLF" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="WSDLF" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="YSZF" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="WSZF" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="ZSL" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="ZJZ" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="ZMZ" type="xs:decimal" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                        <xs:element name="Table1">
+                           <xs:complexType>
+                              <xs:sequence>
+                                 <xs:element name="GGXH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="PM" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="SL" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="DJ" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="CJDW" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="PP" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="CD" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="XS" type="xs:int" minOccurs="0"/>
+                                 <xs:element name="XH" type="xs:string" minOccurs="0"/>
+                                 <xs:element name="JZ" type="xs:decimal" minOccurs="0"/>
+                                 <xs:element name="MZ" type="xs:decimal" minOccurs="0"/>
+                              </xs:sequence>
+                           </xs:complexType>
+                        </xs:element>
+                     </xs:choice>
+                  </xs:complexType>
+               </xs:element>
+            </xs:schema>
+            <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+               <NewDataSet xmlns="">
+                  <Table diffgr:id="Table1" msdata:rowOrder="0">
+                     <ERPWTDH>FA150310443</ERPWTDH>
+                     <GHS>ZOE Industrial limited</GHS>
+                     <BB>USD</BB>
+                     <THXX/>
+                     <SZJHFS/>
+                     <SPTT>深圳市晶圆顺光电有限公司</SPTT>
+                     <FKLX>1</FKLX>
+                     <BGFS>1</BGFS>
+                     <DDHL>6.227400</DDHL>
+                     <DLFHL>6.227400</DLFHL>
+                     <DLFL>0.004000</DLFL>
+                     <ZFFS/>
+                     <QPTS>0</QPTS>
+                     <ZJE>753688.00</ZJE>
+                     <BGJE>0</BGJE>
+                     <FJ2/>
+                     <BZ/>
+                     <YFHJE>0</YFHJE>
+                     <WFHJE>0</WFHJE>
+                     <YSS>0</YSS>
+                     <WSS>0</WSS>
+                     <YSDLF>0</YSDLF>
+                     <WSDLF>0</WSDLF>
+                     <YSZF>0</YSZF>
+                     <WSZF>0</WSZF>
+                     <ZSL>94211.00</ZSL>
+                     <ZJZ>4312.500</ZJZ>
+                     <ZMZ>7628.340</ZMZ>
+                  </Table>
+                  <Table1 diffgr:id="Table11" msdata:rowOrder="0">
+                     <GGXH>CLAC080WQ01 V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>49.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>4.000</JZ>
+                     <MZ>4.230</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table12" msdata:rowOrder="1">
+                     <GGXH>CLAC080WQ012TXG</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1088.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>50.000</JZ>
+                     <MZ>100.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table13" msdata:rowOrder="2">
+                     <GGXH>CLAC080WQ02 V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>709.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>20.000</JZ>
+                     <MZ>43.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table14" msdata:rowOrder="3">
+                     <GGXH>CLAC080WQ022TXM V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1596.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>99.000</JZ>
+                     <MZ>120.820</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table15" msdata:rowOrder="4">
+                     <GGXH>CLAC080WQ022TXN</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>15.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>0.500</JZ>
+                     <MZ>1.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table16" msdata:rowOrder="5">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>39.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>3.000</JZ>
+                     <MZ>3.950</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table17" msdata:rowOrder="6">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>760.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>30.000</JZ>
+                     <MZ>65.260</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table18" msdata:rowOrder="7">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>456.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>20.000</JZ>
+                     <MZ>43.930</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table19" msdata:rowOrder="8">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>304.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>15.000</JZ>
+                     <MZ>35.330</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table110" msdata:rowOrder="9">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>304.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>15.000</JZ>
+                     <MZ>35.330</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table111" msdata:rowOrder="10">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>4.000</JZ>
+                     <MZ>4.990</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table112" msdata:rowOrder="11">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>4.000</JZ>
+                     <MZ>4.990</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table113" msdata:rowOrder="12">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>60.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>4.000</JZ>
+                     <MZ>4.990</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table114" msdata:rowOrder="13">
+                     <GGXH>CLAC080WQ022TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>2280.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>150.000</JZ>
+                     <MZ>183.640</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table115" msdata:rowOrder="14">
+                     <GGXH>CLAC080WQ03</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>5472.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>2</XS>
+                     <JZ>250.000</JZ>
+                     <MZ>512.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table116" msdata:rowOrder="15">
+                     <GGXH>CLAC080WQ03</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>32832.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>12</XS>
+                     <JZ>1500.000</JZ>
+                     <MZ>3074.520</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table117" msdata:rowOrder="16">
+                     <GGXH>CLAC080WQ032 V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>4.000</JZ>
+                     <MZ>4.990</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table118" msdata:rowOrder="17">
+                     <GGXH>CLAC080WQ032 V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>123.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>5.000</JZ>
+                     <MZ>10.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table119" msdata:rowOrder="18">
+                     <GGXH>CLAC080WQ032TXG</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>988.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>41.000</JZ>
+                     <MZ>82.290</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table120" msdata:rowOrder="19">
+                     <GGXH>CLAC080WQ032TXG V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>4.000</JZ>
+                     <MZ>4.990</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table121" msdata:rowOrder="20">
+                     <GGXH>CLAC080WQ032TXG V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>456.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>20.000</JZ>
+                     <MZ>43.930</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table122" msdata:rowOrder="21">
+                     <GGXH>CLAC080WQ04 TXG</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>2356.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>200.000</JZ>
+                     <MZ>247.470</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table123" msdata:rowOrder="22">
+                     <GGXH>CLAC080WQ04 TXG V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>7.000</JZ>
+                     <MZ>7.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table124" msdata:rowOrder="23">
+                     <GGXH>CLAC080WQ04 TXG V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>26.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>7.000</JZ>
+                     <MZ>7.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table125" msdata:rowOrder="24">
+                     <GGXH>CLAC080WQ04 TXG V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>7.000</JZ>
+                     <MZ>7.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table126" msdata:rowOrder="25">
+                     <GGXH>CLAC080WQ04 TXG V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>7.000</JZ>
+                     <MZ>7.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table127" msdata:rowOrder="26">
+                     <GGXH>CLAC080WQ04 V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>76.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>7.000</JZ>
+                     <MZ>7.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table128" msdata:rowOrder="27">
+                     <GGXH>CLAC080WQ04 V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>65.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>6.000</JZ>
+                     <MZ>6.760</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table129" msdata:rowOrder="28">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1153.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>100.000</JZ>
+                     <MZ>131.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table130" msdata:rowOrder="29">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>2654.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>250.000</JZ>
+                     <MZ>274.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table131" msdata:rowOrder="30">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>291.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>20.000</JZ>
+                     <MZ>35.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table132" msdata:rowOrder="31">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>704.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>40.000</JZ>
+                     <MZ>81.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table133" msdata:rowOrder="32">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>366.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>25.000</JZ>
+                     <MZ>51.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table134" msdata:rowOrder="33">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1936.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>99.000</JZ>
+                     <MZ>200.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table135" msdata:rowOrder="34">
+                     <GGXH>CLAC080WQ05 TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1681.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>101.000</JZ>
+                     <MZ>179.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table136" msdata:rowOrder="35">
+                     <GGXH>CLAC080WQ05 TXN V 4</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>5.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>1.000</JZ>
+                     <MZ>2.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table137" msdata:rowOrder="36">
+                     <GGXH>CLAC080WQ05TXNV(2300)</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1584.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>200.000</JZ>
+                     <MZ>209.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table138" msdata:rowOrder="37">
+                     <GGXH>CLAC080WQ064TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>464.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>30.000</JZ>
+                     <MZ>62.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table139" msdata:rowOrder="38">
+                     <GGXH>CLAC080WQ064TXN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>3168.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>250.000</JZ>
+                     <MZ>316.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table140" msdata:rowOrder="39">
+                     <GGXH>CLAF080WQ01</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>5472.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>2</XS>
+                     <JZ>250.000</JZ>
+                     <MZ>512.420</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table141" msdata:rowOrder="40">
+                     <GGXH>CLAF080WQ01 TXX(2100)</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>7339.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>3</XS>
+                     <JZ>100.000</JZ>
+                     <MZ>150.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table142" msdata:rowOrder="41">
+                     <GGXH>CLAF080WQ012TXX</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1570.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>30.000</JZ>
+                     <MZ>66.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table143" msdata:rowOrder="42">
+                     <GGXH>CLAF080WQ012TXX</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>120.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>30.000</JZ>
+                     <MZ>63.100</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table144" msdata:rowOrder="43">
+                     <GGXH>CLAF080WQ012TXX V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>1537.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>1</XS>
+                     <JZ>100.000</JZ>
+                     <MZ>144.890</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table145" msdata:rowOrder="44">
+                     <GGXH>CLAG080WQ01</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>13500.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <XS>2</XS>
+                     <JZ>200.000</JZ>
+                     <MZ>468.000</MZ>
+                  </Table1>
+                  <Table1 diffgr:id="Table146" msdata:rowOrder="45">
+                     <GGXH>CLAN080WQ05 XN V</GGXH>
+                     <PM>8英寸液晶显示屏</PM>
+                     <SL>81.00</SL>
+                     <DJ>8.000000</DJ>
+                     <CJDW>个</CJDW>
+                     <JZ>3.000</JZ>
+                     <MZ>8.000</MZ>
+                  </Table1>
+               </NewDataSet>
+            </diffgr:diffgram>
+         </GetDataMethodsResult>
+      </GetDataMethodsResponse>
+   </soap:Body>
+</soap:Envelope>

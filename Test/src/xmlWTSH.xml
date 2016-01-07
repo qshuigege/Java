@@ -1,0 +1,275 @@
+
+This XML file does not appear to have any style information associated
+with it. The document tree is shown below.
+<DataSet xmlns="http://tempuri.org/">
+	<xs:schema xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+		xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="NewDataSet">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true"
+			msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="DJBH" type="xs:string" minOccurs="0" />
+								<xs:element name="WTF" type="xs:string" minOccurs="0" />
+								<xs:element name="THGYS" type="xs:string" minOccurs="0" />
+								<xs:element name="DH" type="xs:string" minOccurs="0" />
+								<xs:element name="LXR" type="xs:string" minOccurs="0" />
+								<xs:element name="DZ" type="xs:string" minOccurs="0" />
+								<xs:element name="YJTHSJ" type="xs:string" minOccurs="0" />
+								<xs:element name="FFZP" type="xs:boolean" minOccurs="0" />
+								<xs:element name="FKBB" type="xs:string" minOccurs="0" />
+								<xs:element name="FKJE" type="xs:decimal" minOccurs="0" />
+								<xs:element name="XS" type="xs:int" minOccurs="0" />
+								<xs:element name="DW" type="xs:string" minOccurs="0" />
+								<xs:element name="DDTHDDSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="LKTHDDSJ" type="xs:dateTime"
+									minOccurs="0" />
+								<xs:element name="FJ" type="xs:string" minOccurs="0" />
+								<xs:element name="BZ" type="xs:string" minOccurs="0" />
+								<xs:element name="SFDSZP" type="xs:string" minOccurs="0" />
+								<xs:element name="SPBB" type="xs:string" minOccurs="0" />
+								<xs:element name="SPJE" type="xs:decimal" minOccurs="0" />
+								<xs:element name="THDZLX" type="xs:string" minOccurs="0" />
+								<xs:element name="YSBINDID" type="xs:string"
+									minOccurs="0" />
+								<xs:element name="FQTDLX" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="Table1">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="DDH" type="xs:string" minOccurs="0" />
+								<xs:element name="PM" type="xs:string" minOccurs="0" />
+								<xs:element name="XH" type="xs:string" minOccurs="0" />
+								<xs:element name="THSL" type="xs:decimal" minOccurs="0" />
+								<xs:element name="DDBB" type="xs:string" minOccurs="0" />
+								<xs:element name="BZ" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+		xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+		<NewDataSet xmlns="">
+			<Table diffgr:id="Table1" msdata:rowOrder="0">
+				<DJBH>PS130400252</DJBH>
+				<THGYS>深圳市超利维实业有限公司</THGYS>
+				<DH>0755-82839580</DH>
+				<LXR>蒋秀娟</LXR>
+				<DZ>深圳市南山区留仙大道1268号众冠红花岭工业区北区4栋4楼西-5楼</DZ>
+				<FFZP>false</FFZP>
+				<DW />
+				<FJ />
+				<BZ>请走中单电梯，打老单送货！</BZ>
+				<SFDSZP />
+				<SPJE>0.00</SPJE>
+				<THDZLX>送货</THDZLX>
+				<YSBINDID />
+				<FQTDLX>1</FQTDLX>
+			</Table>
+			<Table1 diffgr:id="Table11" msdata:rowOrder="0">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table12" msdata:rowOrder="1">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table13" msdata:rowOrder="2">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table14" msdata:rowOrder="3">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table15" msdata:rowOrder="4">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table16" msdata:rowOrder="5">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table17" msdata:rowOrder="6">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table18" msdata:rowOrder="7">
+				<THSL>4000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table19" msdata:rowOrder="8">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table110" msdata:rowOrder="9">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table111" msdata:rowOrder="10">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table112" msdata:rowOrder="11">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table113" msdata:rowOrder="12">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table114" msdata:rowOrder="13">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table115" msdata:rowOrder="14">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table116" msdata:rowOrder="15">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table117" msdata:rowOrder="16">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table118" msdata:rowOrder="17">
+				<THSL>2000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table119" msdata:rowOrder="18">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table120" msdata:rowOrder="19">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table121" msdata:rowOrder="20">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table122" msdata:rowOrder="21">
+				<THSL>10000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table123" msdata:rowOrder="22">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table124" msdata:rowOrder="23">
+				<THSL>6000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table125" msdata:rowOrder="24">
+				<THSL>12000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table126" msdata:rowOrder="25">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table127" msdata:rowOrder="26">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table128" msdata:rowOrder="27">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table129" msdata:rowOrder="28">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table130" msdata:rowOrder="29">
+				<THSL>20000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table131" msdata:rowOrder="30">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table132" msdata:rowOrder="31">
+				<THSL>2000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table133" msdata:rowOrder="32">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table134" msdata:rowOrder="33">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table135" msdata:rowOrder="34">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table136" msdata:rowOrder="35">
+				<THSL>10000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table137" msdata:rowOrder="36">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table138" msdata:rowOrder="37">
+				<THSL>3000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table139" msdata:rowOrder="38">
+				<THSL>3000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table140" msdata:rowOrder="39">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table141" msdata:rowOrder="40">
+				<THSL>6000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table142" msdata:rowOrder="41">
+				<THSL>4000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table143" msdata:rowOrder="42">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table144" msdata:rowOrder="43">
+				<THSL>20000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table145" msdata:rowOrder="44">
+				<THSL>25000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table146" msdata:rowOrder="45">
+				<THSL>15000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table147" msdata:rowOrder="46">
+				<THSL>1000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table148" msdata:rowOrder="47">
+				<THSL>5000.00</THSL>
+				<DDBB />
+			</Table1>
+			<Table1 diffgr:id="Table149" msdata:rowOrder="48">
+				<THSL>2000.00</THSL>
+				<DDBB />
+			</Table1>
+		</NewDataSet>
+	</diffgr:diffgram>
+</DataSet>
